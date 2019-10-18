@@ -3,17 +3,6 @@ package com.verusmobile;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
-import com.horcrux.svg.SvgPackage;
-import cl.json.RNSharePackage;
-import com.rnfs.RNFSPackage;
-import com.reactnativecommunity.asyncstorage.AsyncStoragePackage;
-import com.oblador.vectoricons.VectorIconsPackage;
-import com.tradle.react.UdpSocketsModule;
-import com.peel.react.TcpSocketsModule;
-import com.swmansion.rnscreens.RNScreensPackage;
-import com.bitgo.randombytes.RandomBytesPackage;
-import com.peel.react.rnos.RNOSModule;
-import org.reactnative.camera.RNCameraPackage;
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
 import com.facebook.react.shell.MainReactPackage;
@@ -33,18 +22,7 @@ public class MainApplication extends Application implements ReactApplication {
     @Override
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
-          new MainReactPackage(),
-            new SvgPackage(),
-            new RNSharePackage(),
-            new RNFSPackage(),
-            new AsyncStoragePackage(),
-            new VectorIconsPackage(),
-            new UdpSocketsModule(),
-            new TcpSocketsModule(),
-            new RNScreensPackage(),
-            new RandomBytesPackage(),
-            new RNOSModule(),
-            new RNCameraPackage()
+          new MainReactPackage()
       );
     }
 
