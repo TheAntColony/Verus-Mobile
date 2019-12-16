@@ -15,6 +15,9 @@ export default styles = StyleSheet.create({
   },
   formInput: {
     width: "100%",
+    fontFamily: 'Avenir-Medium',
+    color: Colors.quinaryColor,
+    fontSize: 15,
   },
   valueContainer: {
     width: "90%",
@@ -32,13 +35,13 @@ export default styles = StyleSheet.create({
     color: Colors.quaternaryColor,
     width: "85%",
     textAlign: "center",
-    fontFamily: 'Avenir',
-    fontWeight: 'bold'
+    fontFamily: 'Avenir-Medium',
   },
   wifInput: {
     width: "100%",
     color: Colors.quaternaryColor,
-    fontSize: 13
+    fontSize: 13,
+    fontFamily: 'Avenir-Medium',
   },
   buttonContainer: {
     width: "80%",
@@ -54,7 +57,7 @@ export default styles = StyleSheet.create({
   },
   addAccountButton: {
     height: 46,
-    backgroundColor: Colors.successButtonColor,
+    backgroundColor: Colors.linkButtonColor,
     marginTop: 15,
     marginBottom: 40,
     width: '60%'

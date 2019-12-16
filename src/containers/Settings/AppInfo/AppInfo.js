@@ -44,7 +44,7 @@ class AppInfo extends Component {
             style={styles.imageStyle}
             source={LOGO_DIR}
           />
-          <Text style={styles.verifiedLabel}>Verus Mobile</Text>
+          <Text style={styles.verifiedLabel}>Valu Mobile</Text>
         </View>
           <View style={styles.infoBox}>
             <View style={styles.infoRow}>

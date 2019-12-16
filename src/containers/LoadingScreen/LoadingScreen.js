@@ -25,7 +25,7 @@ export default class LoadingScreen extends Component {
     return (
       <View style={styles.loadingRoot}>
         <ProgressBar width={250} height={20} indeterminate={true} color={Colors.primaryColor}/>
-        <Text style={styles.loadingLabel}>{"Initializing Verus Mobile..."}</Text>
+        <Text style={styles.loadingLabel}>{"Initializing Valu Mobile..."}</Text>
       </View>
     );
   }

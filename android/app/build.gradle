@@ -80,7 +80,8 @@ def keystorePropertiesFile = rootProject.file("keystore.properties");
  */
 
 project.ext.react = [
-    entryFile: "index.js"
+    entryFile: "index.js",
+    bundleInDebug: true
 ]
 
 apply from: "../../node_modules/react-native/react.gradle"
@@ -150,7 +151,7 @@ android {
     // applicationVariants are e.g. debug, release
     applicationVariants.all { variant ->
         variant.outputs.all { output ->
-            outputFileName = "VerusMobile-${defaultConfig.versionName}.apk"
+            outputFileName = "ValuMobile-${defaultConfig.versionName}.apk"
         }
     }
 }

@@ -1,14 +1,14 @@
 
 const Colors = {
-    primaryColor: '#4D70DA', // light blue
+    primaryColor: '#17407e', // light blue
     secondaryColor: '#FFFFFF', // white
     tertiaryColor: '#dee5fe', //grey white
-    quaternaryColor: '#232323', // light black
+    quaternaryColor: '#111114', // light black
     quinaryColor: 'black',
-    successButtonColor: '#00B231',
+    successButtonColor: '#0ba7b4',
     warningButtonColor: '#F22D37',
     infoButtonColor: '#F89336',
-    linkButtonColor: '#4E73DF',
+    linkButtonColor: '#3374b5',
     basicButtonColor: 'black',
 }
 

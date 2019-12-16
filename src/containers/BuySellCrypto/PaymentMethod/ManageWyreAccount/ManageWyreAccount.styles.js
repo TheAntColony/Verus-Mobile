@@ -34,7 +34,8 @@ export default StyleSheet.create({
     wyreCardText: {
         color: Colors.quaternaryColor,
         paddingLeft: 10,
-        fontFamily: 'Avenir',
+        fontFamily: 'Avenir-Book',
+        fontSize: 16,
     },
     wyreCardIconContainer: {
         flexDirection: 'row',
@@ -51,12 +52,12 @@ export default StyleSheet.create({
         marginTop: 10,
         height: 46,
         width: '90%',
-        backgroundColor: "#009B72",
+        backgroundColor: Colors.primaryColor,
     },
     buttonConfirm: {
         width: '100%',
         height: 40,
-        backgroundColor: '#009B72',
+        backgroundColor: Colors.primaryColor,
         marginTop: 15,
     },
     buttonCancel: {
@@ -69,7 +70,7 @@ export default StyleSheet.create({
         alignSelf: 'center',
         height: 46,
         width: '90%',
-        backgroundColor: "#009B72"
+        backgroundColor: Colors.primaryColor
     },
     mainInputView: {
         backgroundColor: Colors.secondaryColor,
@@ -79,14 +80,14 @@ export default StyleSheet.create({
         paddingVertical: '5%'
     },
     formLabel: {
-        fontSize: 15,
-        fontWeight: '700',
+        fontSize: 16,
         textAlign: 'left',
         paddingTop: '0%',
         color: Colors.quaternaryColor,
         marginVertical: 0,
         paddingVertical: 0,
-        fontFamily: 'Avenir',
+        fontFamily: 'Avenir-Book',
+        fontWeight: 'normal'
     },
     buttonContainer: {
         width: '80%',
@@ -139,11 +140,11 @@ export default StyleSheet.create({
         paddingVertical: 10,
     },
     formInputContainer: {
-        fontSize: 14,
+        fontSize: 15,
         width: '100%',
         marginVertical: 0,
-        color: Colors.quaternaryColor,
-        fontFamily: 'Avenir',
+        color: Colors.quinaryColor,
+        fontFamily: 'Avenir-Medium',
     },
     inputMaskDateOfBirth: {
         color: Colors.quaternaryColor,
@@ -169,13 +170,13 @@ export default StyleSheet.create({
         marginTop: 15
     },
     statusButtonAdd: {
-        backgroundColor: Colors.successButtonColor,
+        backgroundColor: Colors.primaryColor,
         width: 110,
         height: 35,
         marginRight: 15,
     },
     statusButtonPending: {
-        backgroundColor: Colors.infoButtonColor,
+        backgroundColor: Colors.successButtonColor,
         width: 110,
         height: 35,
         marginRight: 15,
