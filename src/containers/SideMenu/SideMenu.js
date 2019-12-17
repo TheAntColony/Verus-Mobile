@@ -185,7 +185,7 @@ class SideMenu extends Component {
             onPress={() => {
               let navigation = this.props.navigation  
               this.props.dispatch(setActiveSectionBuySellCrypto('buy-crypto'))
-              navigation.navigate("BuySellCryptoMenus", {title: "Buy"});
+              navigation.navigate("BuySellCryptoMenus", {title: "Buy Crypto"});
             }}
           />
           )
