@@ -119,7 +119,7 @@ class DeleteProfile extends Component {
             if (res) {
               let data = {
                 task: deleteUserByID,
-                message: "Deleting profile, please do not close Verus Mobile",
+                message: "Deleting profile, please do not close Valu Mobile",
                 input: [userID],
                 dispatchResult: true
               }

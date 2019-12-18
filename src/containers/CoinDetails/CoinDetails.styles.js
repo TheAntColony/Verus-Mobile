@@ -72,7 +72,7 @@ export default styles = StyleSheet.create({
   receiveBtn: {
     width: '85%',
     height: 45,
-    backgroundColor: Colors.infoButtonColor,
+    backgroundColor: Colors.successButtonColor,
     marginTop: 0,
     marginBottom: 0
   },

@@ -110,7 +110,7 @@ class SecureLoading extends Component {
     clearTimeout(this.timeoutTimer);
     Alert.alert(
       "Error", 
-      "Verus Mobile timed out while trying to complete a secure task, please close and " + 
+      "Valu Mobile timed out while trying to complete a secure task, please close and " + 
       "restart the app.");
   }
 

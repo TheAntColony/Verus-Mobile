@@ -47,7 +47,7 @@ class WalletSettings extends Component {
           task: () => {
             return clearCacheData(this.props.dispatch)
           },
-          message: "Clearing cache, please do not close Verus Mobile",
+          message: "Clearing cache, please do not close Valu Mobile",
           route: "Home",
           successMsg: "Cache cleared successfully",
           errorMsg: "Cache failed to clear"

@@ -52,7 +52,7 @@ export default StyleSheet.create({
         marginTop: 10,
         height: 46,
         width: '90%',
-        backgroundColor: "#009B72",
+        backgroundColor: Colors.linkButtonColor,
     },
     buttonConfirm: {
         width: '100%',
@@ -70,7 +70,7 @@ export default StyleSheet.create({
         alignSelf: 'center',
         height: 46,
         width: '90%',
-        backgroundColor: "#009B72"
+        backgroundColor: Colors.linkButtonColor
     },
     mainInputView: {
         backgroundColor: Colors.secondaryColor,
@@ -170,13 +170,13 @@ export default StyleSheet.create({
         marginTop: 15
     },
     statusButtonAdd: {
-        backgroundColor: Colors.successButtonColor,
+        backgroundColor: Colors.linkButtonColor,
         width: 110,
         height: 35,
         marginRight: 15,
     },
     statusButtonPending: {
-        backgroundColor: Colors.infoButtonColor,
+        backgroundColor: Colors.successButtonColor,
         width: 110,
         height: 35,
         marginRight: 15,
@@ -192,8 +192,7 @@ export default StyleSheet.create({
         color: Colors.linkButtonColor,
         width: 130,
         textAlign: 'center',
-        fontWeight: '600',
-        fontFamily: 'Avenir',
+        fontFamily: 'Avenir-Black',
     },
     statusButtonStyle: {
         fontSize: 15,

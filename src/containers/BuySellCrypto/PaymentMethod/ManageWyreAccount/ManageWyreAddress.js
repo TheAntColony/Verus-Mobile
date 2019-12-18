@@ -206,7 +206,7 @@ class ManageWyreAddress extends Component {
                   labelExtractor={(item) => item.value}
                   valueExtractor={(item) => item.value}
                   label="Country: "
-                  labelTextStyle={{ fontWeight: '700' }}
+                  labelTextStyle={{ fontFamily: 'Avenir-Book' }}
                   labelFontSize={13}
                   data={WYRE_COUNTRIES}
                   onChangeText={(value) => this.setState({ country: value })}

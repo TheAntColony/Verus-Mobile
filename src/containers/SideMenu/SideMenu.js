@@ -76,7 +76,7 @@ class SideMenu extends Component {
   _removeCoin = (coinID) => {
     let data = {
       task: this._removeUserFromCoin,
-      message: "Removing " + coinID + " from user " + this.props.activeAccount.id + ", please do not close Verus Mobile.",
+      message: "Removing " + coinID + " from user " + this.props.activeAccount.id + ", please do not close Valu Mobile.",
       input: [coinID],
       route: "Home",
       dispatchResult: true

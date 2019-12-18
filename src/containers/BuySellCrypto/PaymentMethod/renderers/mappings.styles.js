@@ -7,7 +7,7 @@ export default StyleSheet.create({
   },
   manageAccountLabel: {
     height: 45,
-    backgroundColor: Colors.successButtonColor
+    backgroundColor: Colors.linkButtonColor
   },
   bankAccountLabel: {
     color: 'black',
